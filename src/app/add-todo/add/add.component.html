@@ -1,0 +1,5 @@
+<form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+  <p>Write summary: <input type="text" formControlName="summary"></p>
+  <p>Write description: <input type="text" formControlName="description"></p>
+  <button type="submit">Submit</button>
+</form>
